@@ -66,6 +66,7 @@
 				p.Start();
 				p.BeginOutputReadLine();
 
+
 				while(true) {
 					strInput.Append(rdr.ReadLine());
 					p.StandardInput.WriteLine(strInput);
